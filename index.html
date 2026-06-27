@@ -21,7 +21,7 @@
       }
       body {
         margin: 0;
-        font-family: "Arial", "Helvetica Neue", sans-serif;
+        font-family: "Poppins", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
         background: linear-gradient(
           120deg,
           #070707 0%,
@@ -79,6 +79,12 @@
       }
       .wrap {
         padding: 26px 34px 38px;
+      }
+      .responsive-container {
+        width: min(1240px, 100%);
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 0 18px;
       }
       .filters {
         display: grid;
@@ -307,7 +313,7 @@
         Brasil.
       </p>
     </section>
-    <main class="wrap">
+    <main class="wrap responsive-container">
       <section class="filters">
         <div class="filter-card">
           <label>Modelo da Porsche</label
@@ -340,10 +346,10 @@
           </select>
         </div>
         <div class="filter-card">
-          <label>Data inicial</label><input id="start" type="date" />
+          <label>Data inicial</label><input id="start" type="date" max="2026-05-31" />
         </div>
         <div class="filter-card">
-          <label>Data final</label><input id="end" type="date" />
+          <label>Data final</label><input id="end" type="date" max="2026-05-31" />
         </div>
       </section>
       <section class="kpis">
