@@ -76,10 +76,12 @@ body {
 .filters {
   display: grid;
   grid-template-columns: repeat(7, minmax(120px, 1fr));
-  gap: 14px;
+  gap: 0px;
   margin-top: -58px;
   position: relative;
   z-index: 2;
+  width: fit-content;
+  justify-content: start;
 }
 .filter-card,
 .kpi,
@@ -87,10 +89,10 @@ body {
   background: rgba(23, 23, 25, 0.92);
   border: 1px solid var(--line);
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
-  border-radius: 18px;
+  border-radius: 0px;
 }
 .filter-card {
-  padding: 14px;
+  padding: 0px;
 }
 .filter-card label {
   display: block;

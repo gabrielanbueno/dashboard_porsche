@@ -85,16 +85,19 @@
       .responsive-container {
         width: min(1240px, 100%);
         max-width: 1240px;
-        margin: 0 auto;
+        margin-left: 32px;
+        margin-right: auto;
         padding: 0 18px;
       }
       .filters {
         display: grid;
-        grid-template-columns: repeat(7, minmax(120px, 1fr));
+        grid-template-columns: repeat(7, minmax(121px, 1fr));
         gap: 14px;
-        margin-top: -58px;
+        margin-top: -30px;
         position: relative;
         z-index: 2;
+        width: fit-content;
+        justify-content: start;
       }
       .filter-card,
       .kpi,
