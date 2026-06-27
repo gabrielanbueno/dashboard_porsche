@@ -10,10 +10,19 @@
   --gold: #c8a96a;
 }
 * {
-  box-sizing: border-box;
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 body {
-  margin: 0;
+
   font-family: "Poppins", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   background: linear-gradient(120deg, #070707 0%, #141414 62%, #202020 100%);
   color: var(--soft);
